@@ -1,0 +1,1691 @@
+{
+  "summary": {
+    "total_frames": 180,
+    "action_frequency": {
+      "STANDING": 30
+    },
+    "action_count": {
+      "STANDING": 155,
+      "SQUATTING": 4,
+      "WALKING": 14,
+      "SITTING": 1
+    },
+    "squat_count": 1,
+    "pushup_count": 0,
+    "jump_count": 0
+  },
+  "transitions": [
+    {
+      "from": "STANDING",
+      "to": "SQUATTING",
+      "timestamp": "2026-01-13 21:58:47.788"
+    },
+    {
+      "from": "SQUATTING",
+      "to": "WALKING",
+      "timestamp": "2026-01-13 21:58:47.842"
+    },
+    {
+      "from": "WALKING",
+      "to": "NO_PERSON_DETECTED",
+      "timestamp": "2026-01-13 21:58:47.852"
+    },
+    {
+      "from": "NO_PERSON_DETECTED",
+      "to": "SQUATTING",
+      "timestamp": "2026-01-13 21:58:47.906"
+    },
+    {
+      "from": "SQUATTING",
+      "to": "NO_PERSON_DETECTED",
+      "timestamp": "2026-01-13 21:58:47.916"
+    },
+    {
+      "from": "NO_PERSON_DETECTED",
+      "to": "SITTING",
+      "timestamp": "2026-01-13 21:58:47.979"
+    },
+    {
+      "from": "SITTING",
+      "to": "NO_PERSON_DETECTED",
+      "timestamp": "2026-01-13 21:58:47.989"
+    },
+    {
+      "from": "NO_PERSON_DETECTED",
+      "to": "SQUATTING",
+      "timestamp": "2026-01-13 21:58:48.042"
+    },
+    {
+      "from": "SQUATTING",
+      "to": "NO_PERSON_DETECTED",
+      "timestamp": "2026-01-13 21:58:48.052"
+    },
+    {
+      "from": "NO_PERSON_DETECTED",
+      "to": "SQUATTING",
+      "timestamp": "2026-01-13 21:58:48.105"
+    },
+    {
+      "from": "SQUATTING",
+      "to": "WALKING",
+      "timestamp": "2026-01-13 21:58:48.159"
+    },
+    {
+      "from": "WALKING",
+      "to": "NO_PERSON_DETECTED",
+      "timestamp": "2026-01-13 21:58:48.169"
+    },
+    {
+      "from": "NO_PERSON_DETECTED",
+      "to": "WALKING",
+      "timestamp": "2026-01-13 21:58:48.223"
+    },
+    {
+      "from": "WALKING",
+      "to": "STANDING",
+      "timestamp": "2026-01-13 21:58:48.873"
+    }
+  ],
+  "detailed_results": [
+    {
+      "timestamp": "2026-01-13 21:58:51.268",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.49167634546756744,
+        "center_y": 0.7649813145399094,
+        "height": -1.5778921246528625,
+        "shoulder_width": 0.23371468914642904,
+        "symmetry": 0.6388606140782458
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.371",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.491299606859684,
+        "center_y": 0.7651816308498383,
+        "height": -1.5736766457557678,
+        "shoulder_width": 0.23371145446779856,
+        "symmetry": 0.6458426747074473
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.425",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.4913526028394699,
+        "center_y": 0.763931080698967,
+        "height": -1.5693471431732178,
+        "shoulder_width": 0.23119618322384755,
+        "symmetry": 0.7095150921604187
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.479",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.49184445291757584,
+        "center_y": 0.7648176997900009,
+        "height": -1.5635730028152466,
+        "shoulder_width": 0.23238989031470625,
+        "symmetry": 0.7999257059391889
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.532",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.49200955778360367,
+        "center_y": 0.7654370367527008,
+        "height": -1.5678206086158752,
+        "shoulder_width": 0.23086605721009387,
+        "symmetry": 0.691029115228609
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.585",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.49384117871522903,
+        "center_y": 0.7608452439308167,
+        "height": -1.5371443629264832,
+        "shoulder_width": 0.23003112344446144,
+        "symmetry": 0.7055311479783223
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.639",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.49576426297426224,
+        "center_y": 0.7596166580915451,
+        "height": -1.5488187670707703,
+        "shoulder_width": 0.23468572038546703,
+        "symmetry": 0.6713421202434646
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.690",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.4964200332760811,
+        "center_y": 0.7580008655786514,
+        "height": -1.5426057577133179,
+        "shoulder_width": 0.23468569349116414,
+        "symmetry": 0.6268970438718886
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.743",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5005651861429214,
+        "center_y": 0.7646015584468842,
+        "height": -1.5625354647636414,
+        "shoulder_width": 0.23162920464203413,
+        "symmetry": 0.6711850753503756
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.797",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5019526779651642,
+        "center_y": 0.7522382140159607,
+        "height": -1.504825234413147,
+        "shoulder_width": 0.22989836296548471,
+        "symmetry": 0.7047663770838225
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.870",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5048074796795845,
+        "center_y": 0.765402302145958,
+        "height": -1.568106472492218,
+        "shoulder_width": 0.23256417853828673,
+        "symmetry": 0.6650646402437703
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.931",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5075039267539978,
+        "center_y": 0.7650924921035767,
+        "height": -1.5761563181877136,
+        "shoulder_width": 0.23103281089355357,
+        "symmetry": 0.7832321727406739
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:51.982",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5108064189553261,
+        "center_y": 0.7614697515964508,
+        "height": -1.5363205671310425,
+        "shoulder_width": 0.2294511747202496,
+        "symmetry": 0.8284837059553836
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.035",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5108051523566246,
+        "center_y": 0.7608766108751297,
+        "height": -1.5365238189697266,
+        "shoulder_width": 0.2294081986096599,
+        "symmetry": 0.8244813704894748
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.089",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5125211179256439,
+        "center_y": 0.7674626559019089,
+        "height": -1.5820382833480835,
+        "shoulder_width": 0.23398810740992507,
+        "symmetry": 0.8411927723326762
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.143",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5160229206085205,
+        "center_y": 0.7561369091272354,
+        "height": -1.5176019072532654,
+        "shoulder_width": 0.23039646879256268,
+        "symmetry": 0.9153403905575099
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.197",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5200945287942886,
+        "center_y": 0.7672031670808792,
+        "height": -1.5631404519081116,
+        "shoulder_width": 0.2323213742880068,
+        "symmetry": 0.8454621438926738
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.251",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5196274667978287,
+        "center_y": 0.753830686211586,
+        "height": -1.538152813911438,
+        "shoulder_width": 0.22942610833413868,
+        "symmetry": 0.7685527194084961
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.312",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5209196656942368,
+        "center_y": 0.748650535941124,
+        "height": -1.5463515520095825,
+        "shoulder_width": 0.231281298088023,
+        "symmetry": 0.8287852607419297
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.366",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5201133191585541,
+        "center_y": 0.7500682175159454,
+        "height": -1.550618588924408,
+        "shoulder_width": 0.2308872159615653,
+        "symmetry": 0.8232840026315614
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.478",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5273973345756531,
+        "center_y": 0.743663102388382,
+        "height": -1.526149570941925,
+        "shoulder_width": 0.23148734167156848,
+        "symmetry": 0.8417671032212215
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.540",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5274716168642044,
+        "center_y": 0.7500396221876144,
+        "height": -1.5642552375793457,
+        "shoulder_width": 0.2336908782343723,
+        "symmetry": 0.9639458549586197
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.593",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5273988023400307,
+        "center_y": 0.7455647736787796,
+        "height": -1.5377445220947266,
+        "shoulder_width": 0.2352608146797413,
+        "symmetry": 0.7994073659086303
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.650",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5287703648209572,
+        "center_y": 0.74787837266922,
+        "height": -1.5542635917663574,
+        "shoulder_width": 0.23184451186353278,
+        "symmetry": 0.7333199359461197
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.703",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5299963429570198,
+        "center_y": 0.7552274018526077,
+        "height": -1.5665044784545898,
+        "shoulder_width": 0.23378517664308174,
+        "symmetry": 0.7027845722805773
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.762",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5297839045524597,
+        "center_y": 0.7529177367687225,
+        "height": -1.5601115822792053,
+        "shoulder_width": 0.23311195969055934,
+        "symmetry": 0.6941392925410805
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.815",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5348995327949524,
+        "center_y": 0.7478516548871994,
+        "height": -1.5598604083061218,
+        "shoulder_width": 0.22976181794339906,
+        "symmetry": 0.8936092565957539
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.871",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5345825552940369,
+        "center_y": 0.7530542761087418,
+        "height": -1.5704877972602844,
+        "shoulder_width": 0.23036184062172557,
+        "symmetry": 0.5660877825989742
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.925",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5366672277450562,
+        "center_y": 0.7539361864328384,
+        "height": -1.5850425958633423,
+        "shoulder_width": 0.23173100331117047,
+        "symmetry": 0.5823451545546687
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:52.977",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5381949245929718,
+        "center_y": 0.7499828636646271,
+        "height": -1.5927245020866394,
+        "shoulder_width": 0.23163000582941537,
+        "symmetry": 0.6161283817956835
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.030",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5402298495173454,
+        "center_y": 0.7562091052532196,
+        "height": -1.5958108305931091,
+        "shoulder_width": 0.2348144623994943,
+        "symmetry": 0.6953563353153003
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.084",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5407444089651108,
+        "center_y": 0.7555113583803177,
+        "height": -1.5967292189598083,
+        "shoulder_width": 0.2344006712307539,
+        "symmetry": 0.7248097409027849
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.142",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5400542393326759,
+        "center_y": 0.7557730823755264,
+        "height": -1.6174047589302063,
+        "shoulder_width": 0.23429072566236608,
+        "symmetry": 0.6070669735390196
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.194",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5386844053864479,
+        "center_y": 0.7537412345409393,
+        "height": -1.6073408722877502,
+        "shoulder_width": 0.23305750166123723,
+        "symmetry": 0.5237686334379865
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.246",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5378447249531746,
+        "center_y": 0.7520925849676132,
+        "height": -1.59958416223526,
+        "shoulder_width": 0.2352439660208688,
+        "symmetry": 0.4797144106047043
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.301",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5409794673323631,
+        "center_y": 0.7546783685684204,
+        "height": -1.599692940711975,
+        "shoulder_width": 0.23491941492086038,
+        "symmetry": 0.6719894075188314
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.358",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5393256768584251,
+        "center_y": 0.7581639289855957,
+        "height": -1.6092815399169922,
+        "shoulder_width": 0.2355187106861645,
+        "symmetry": 0.5710235152230347
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.412",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5397091060876846,
+        "center_y": 0.7595240920782089,
+        "height": -1.6090024709701538,
+        "shoulder_width": 0.23607079010590443,
+        "symmetry": 0.5940018785085516
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.466",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5425803065299988,
+        "center_y": 0.7623501271009445,
+        "height": -1.6230389475822449,
+        "shoulder_width": 0.23700434121993436,
+        "symmetry": 0.8425024026446064
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.519",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5413928478956223,
+        "center_y": 0.7595652788877487,
+        "height": -1.6218659281730652,
+        "shoulder_width": 0.23150161485318865,
+        "symmetry": 0.6891065561165495
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.571",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5409913435578346,
+        "center_y": 0.7598979324102402,
+        "height": -1.6151780486106873,
+        "shoulder_width": 0.2306585764324954,
+        "symmetry": 0.6022407435935784
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.627",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5398238375782967,
+        "center_y": 0.7545237690210342,
+        "height": -1.5985226035118103,
+        "shoulder_width": 0.23097513332389696,
+        "symmetry": 0.49007739473639733
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.681",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5412930175662041,
+        "center_y": 0.7623443603515625,
+        "height": -1.6099600791931152,
+        "shoulder_width": 0.23029169896025753,
+        "symmetry": 0.5699759860671412
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.735",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5419451370835304,
+        "center_y": 0.7617861479520798,
+        "height": -1.623453140258789,
+        "shoulder_width": 0.23013159188944016,
+        "symmetry": 0.5644308475528486
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.792",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5405920073390007,
+        "center_y": 0.7610169053077698,
+        "height": -1.6197624206542969,
+        "shoulder_width": 0.23050925231636712,
+        "symmetry": 0.5666855067801755
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.845",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5413787290453911,
+        "center_y": 0.7669175565242767,
+        "height": -1.6309866309165955,
+        "shoulder_width": 0.22957943642038853,
+        "symmetry": 0.5892728269804551
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.902",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5411711409687996,
+        "center_y": 0.7661857903003693,
+        "height": -1.6451078653335571,
+        "shoulder_width": 0.23005611758776434,
+        "symmetry": 0.5742759789848029
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:53.958",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5397672727704048,
+        "center_y": 0.7589579224586487,
+        "height": -1.6305508017539978,
+        "shoulder_width": 0.22963192015266326,
+        "symmetry": 0.5491149594076536
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.011",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5406513437628746,
+        "center_y": 0.7577381730079651,
+        "height": -1.6214807033538818,
+        "shoulder_width": 0.22660278602024225,
+        "symmetry": 0.5759129563330085
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.067",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5396716222167015,
+        "center_y": 0.7577486932277679,
+        "height": -1.6258886456489563,
+        "shoulder_width": 0.22619566784502118,
+        "symmetry": 0.5559303616914051
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.123",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5369789823889732,
+        "center_y": 0.7598977982997894,
+        "height": -1.6074636578559875,
+        "shoulder_width": 0.2286760013373839,
+        "symmetry": 0.4560597727879826
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.182",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5362582206726074,
+        "center_y": 0.76035475730896,
+        "height": -1.5965694785118103,
+        "shoulder_width": 0.22714986959324437,
+        "symmetry": 0.5010745193703897
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.239",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5344527214765549,
+        "center_y": 0.7579072564840317,
+        "height": -1.591707706451416,
+        "shoulder_width": 0.22679665175107372,
+        "symmetry": 0.46950913604433064
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.291",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5346071645617485,
+        "center_y": 0.7564808875322342,
+        "height": -1.5724624991416931,
+        "shoulder_width": 0.2271783376264537,
+        "symmetry": 0.6119600297061021
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.353",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5352296754717827,
+        "center_y": 0.7579596191644669,
+        "height": -1.5799714922904968,
+        "shoulder_width": 0.2251624817053026,
+        "symmetry": 0.5817318704345834
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.414",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5355068668723106,
+        "center_y": 0.7580358535051346,
+        "height": -1.5779191851615906,
+        "shoulder_width": 0.2251375963164047,
+        "symmetry": 0.5962958806087753
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.468",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5357488542795181,
+        "center_y": 0.7589109688997269,
+        "height": -1.573603093624115,
+        "shoulder_width": 0.22606488845251066,
+        "symmetry": 0.6317289751086831
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.521",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5330602824687958,
+        "center_y": 0.7566543519496918,
+        "height": -1.568940281867981,
+        "shoulder_width": 0.22535913209647482,
+        "symmetry": 0.5862540617265124
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.575",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5366709381341934,
+        "center_y": 0.7509532123804092,
+        "height": -1.5307902097702026,
+        "shoulder_width": 0.2285616854582687,
+        "symmetry": 0.8128682594862591
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.628",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.531620517373085,
+        "center_y": 0.7506495267152786,
+        "height": -1.5304873585700989,
+        "shoulder_width": 0.2257794864781762,
+        "symmetry": 0.6907747757394636
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.682",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.530231237411499,
+        "center_y": 0.7484797090291977,
+        "height": -1.5058332085609436,
+        "shoulder_width": 0.22607685273629488,
+        "symmetry": 0.6295210859089119
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.735",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5311196148395538,
+        "center_y": 0.746856302022934,
+        "height": -1.5049131512641907,
+        "shoulder_width": 0.22614372966345614,
+        "symmetry": 0.6436944121188877
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.788",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5290600061416626,
+        "center_y": 0.7479228377342224,
+        "height": -1.5072041749954224,
+        "shoulder_width": 0.2226309793399652,
+        "symmetry": 0.6623875224955009
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.839",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5274025499820709,
+        "center_y": 0.7505906969308853,
+        "height": -1.518127202987671,
+        "shoulder_width": 0.2245269766557871,
+        "symmetry": 0.5330874453913915
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.894",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5282210782170296,
+        "center_y": 0.7569727599620819,
+        "height": -1.532534658908844,
+        "shoulder_width": 0.22816527624951768,
+        "symmetry": 0.7619720411333799
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:54.952",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5247174650430679,
+        "center_y": 0.7505588531494141,
+        "height": -1.541696310043335,
+        "shoulder_width": 0.22742903542181114,
+        "symmetry": 0.7156869476395078
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.016",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5251133143901825,
+        "center_y": 0.7618449926376343,
+        "height": -1.5732486248016357,
+        "shoulder_width": 0.22813749921609802,
+        "symmetry": 0.7448579644984235
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.070",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5252798646688461,
+        "center_y": 0.761212170124054,
+        "height": -1.5725286602973938,
+        "shoulder_width": 0.22859941692492378,
+        "symmetry": 0.7501314208007661
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.127",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5255575254559517,
+        "center_y": 0.7536598443984985,
+        "height": -1.5304582715034485,
+        "shoulder_width": 0.22835376964413426,
+        "symmetry": 0.9138667576677717
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.180",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5214433670043945,
+        "center_y": 0.7473182827234268,
+        "height": -1.531651496887207,
+        "shoulder_width": 0.2235190362910173,
+        "symmetry": 0.7260886131673085
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.237",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5235801488161087,
+        "center_y": 0.7448038011789322,
+        "height": -1.5234546065330505,
+        "shoulder_width": 0.22307039912471574,
+        "symmetry": 0.9989346982959474
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.294",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5197101086378098,
+        "center_y": 0.7482922226190567,
+        "height": -1.5068790912628174,
+        "shoulder_width": 0.22757986586920526,
+        "symmetry": 0.8252334565174151
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.352",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5215514525771141,
+        "center_y": 0.7488806992769241,
+        "height": -1.528027355670929,
+        "shoulder_width": 0.22597584752435879,
+        "symmetry": 0.977245647909578
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.405",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5204379186034203,
+        "center_y": 0.7477410584688187,
+        "height": -1.5271221995353699,
+        "shoulder_width": 0.2261147721152291,
+        "symmetry": 0.9283257639840187
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.459",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5186702460050583,
+        "center_y": 0.7513907551765442,
+        "height": -1.537644386291504,
+        "shoulder_width": 0.2292241509317452,
+        "symmetry": 0.8967605413922076
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.586",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.517012745141983,
+        "center_y": 0.7455029785633087,
+        "height": -1.5435395240783691,
+        "shoulder_width": 0.22843718469397814,
+        "symmetry": 0.7978598249826756
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.649",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5150083005428314,
+        "center_y": 0.7501725852489471,
+        "height": -1.5515129566192627,
+        "shoulder_width": 0.22927107196737986,
+        "symmetry": 0.7816133364768961
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.704",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5149501338601112,
+        "center_y": 0.7476464509963989,
+        "height": -1.5368415117263794,
+        "shoulder_width": 0.22775224713263742,
+        "symmetry": 0.9673652295595389
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.759",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5134066343307495,
+        "center_y": 0.7486375123262405,
+        "height": -1.540982723236084,
+        "shoulder_width": 0.2276110335063307,
+        "symmetry": 0.9658505970903404
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.814",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.513347327709198,
+        "center_y": 0.7492705732584,
+        "height": -1.5458064675331116,
+        "shoulder_width": 0.22732459348831136,
+        "symmetry": 0.9510083634222641
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.869",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5131763219833374,
+        "center_y": 0.7532733529806137,
+        "height": -1.5341483354568481,
+        "shoulder_width": 0.23132471930769824,
+        "symmetry": 0.9389666328054014
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.925",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5138109475374222,
+        "center_y": 0.7462929040193558,
+        "height": -1.5274490118026733,
+        "shoulder_width": 0.22475716713297098,
+        "symmetry": 0.8787670301806288
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:55.981",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5076675191521645,
+        "center_y": 0.7482167035341263,
+        "height": -1.528005838394165,
+        "shoulder_width": 0.2284449543416401,
+        "symmetry": 0.8887370366806905
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.034",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5090861171483994,
+        "center_y": 0.7497265338897705,
+        "height": -1.5432698130607605,
+        "shoulder_width": 0.22833311241285115,
+        "symmetry": 0.8997628664636681
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.086",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5074580535292625,
+        "center_y": 0.7523454576730728,
+        "height": -1.5372682809829712,
+        "shoulder_width": 0.2301637698095452,
+        "symmetry": 0.8998615986221987
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.139",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5080115795135498,
+        "center_y": 0.7515001595020294,
+        "height": -1.5420478582382202,
+        "shoulder_width": 0.22916509579346106,
+        "symmetry": 0.9218837170991155
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.192",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5069125443696976,
+        "center_y": 0.7573522478342056,
+        "height": -1.5651161670684814,
+        "shoulder_width": 0.22915942115475585,
+        "symmetry": 0.9336752585066288
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.244",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5062886476516724,
+        "center_y": 0.7492698132991791,
+        "height": -1.5447351336479187,
+        "shoulder_width": 0.2273331477576882,
+        "symmetry": 0.9132470541693747
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.298",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.504816010594368,
+        "center_y": 0.7507496625185013,
+        "height": -1.5316547751426697,
+        "shoulder_width": 0.22908152667717563,
+        "symmetry": 0.9833045687175465
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.350",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5071146488189697,
+        "center_y": 0.752884179353714,
+        "height": -1.5631545186042786,
+        "shoulder_width": 0.22767637912408042,
+        "symmetry": 0.7995131810575272
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.402",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5082055553793907,
+        "center_y": 0.7476232051849365,
+        "height": -1.524884581565857,
+        "shoulder_width": 0.22753470415572377,
+        "symmetry": 0.6976546823215861
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.453",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5077702850103378,
+        "center_y": 0.7445831000804901,
+        "height": -1.5282411575317383,
+        "shoulder_width": 0.22675716550721073,
+        "symmetry": 0.646781185480299
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.507",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5061506107449532,
+        "center_y": 0.7490969747304916,
+        "height": -1.5366386771202087,
+        "shoulder_width": 0.2281088221195041,
+        "symmetry": 0.7436099512884968
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.558",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5020805522799492,
+        "center_y": 0.7488491982221603,
+        "height": -1.5459145307540894,
+        "shoulder_width": 0.23017080325614775,
+        "symmetry": 0.803186330947256
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.610",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5022017583251,
+        "center_y": 0.7444451451301575,
+        "height": -1.5118974447250366,
+        "shoulder_width": 0.2313281659506324,
+        "symmetry": 0.8190830392814149
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.661",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5026954114437103,
+        "center_y": 0.7437268793582916,
+        "height": -1.5106335282325745,
+        "shoulder_width": 0.22907663323995361,
+        "symmetry": 0.7654086098981263
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.713",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5040760561823845,
+        "center_y": 0.7481772899627686,
+        "height": -1.52688068151474,
+        "shoulder_width": 0.22583356278220965,
+        "symmetry": 0.5710266565985304
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.765",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5033345222473145,
+        "center_y": 0.7483390122652054,
+        "height": -1.5242621302604675,
+        "shoulder_width": 0.22677561801521523,
+        "symmetry": 0.5740812211308852
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.818",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5019445642828941,
+        "center_y": 0.7464101165533066,
+        "height": -1.510156273841858,
+        "shoulder_width": 0.22878014996912144,
+        "symmetry": 0.6416851503684597
+      }
+    },
+    {
+      "timestamp": "2026-01-13 21:58:56.871",
+      "action": "STANDING",
+      "details": {
+        "squat_count": 1,
+        "pushup_count": 0,
+        "jump_count": 0
+      },
+      "metrics": {
+        "center_x": 0.5041509941220284,
+        "center_y": 0.7462991327047348,
+        "height": -1.5216939449310303,
+        "shoulder_width": 0.2271818822873461,
+        "symmetry": 0.478458201286592
+      }
+    }
+  ]
+}

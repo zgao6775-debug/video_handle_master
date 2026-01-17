@@ -1,0 +1,31 @@
+{
+  "mode": "smart_bgm",
+  "mood": "energetic",
+  "bgm_path": "D:\\rubbish\\video-handle\\music\\energetic\\3.MP3",
+  "volume": 0.7,
+  "features": {
+    "brightness_mean": 137.6226910556891,
+    "saturation_mean": 38.00287242922008,
+    "motion_mean": 55.348112250434035,
+    "visual_samples": 13,
+    "scores_stats": {
+      "energetic": 4.427848980034723,
+      "calm": 0.27215101996527724,
+      "sad": 0.1450923577724359,
+      "happy": 0.9049650908119659,
+      "tense": 1.412206003355369
+    },
+    "scores_combined": {
+      "energetic": 4.427848980034723,
+      "calm": 0.27215101996527724,
+      "sad": 0.1450923577724359,
+      "happy": 0.9049650908119659,
+      "tense": 1.412206003355369
+    }
+  },
+  "text_context": {
+    "language": "zh",
+    "text": "宿舍這是站在編輯的代碼那你們A前點剛才看的是啥呀宿舍外今天陽光特別好\n宿舍這是站在編輯的代碼那你們A前點剛才看的是啥呀宿舍外今天陽光特別好",
+    "report_path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\report.json"
+  }
+}

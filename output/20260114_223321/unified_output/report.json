@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-01-14 22:34:03",
+  "video": {
+    "path": "D:\\rubbish\\video-handle\\video\\test.mp4",
+    "fps": 29.98592967915055,
+    "total_frames": 390,
+    "width": 1280,
+    "height": 720,
+    "duration_sec": 13.0061
+  },
+  "keyframes": [
+    {
+      "index": 1,
+      "frame": 0,
+      "time": 0.0,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_001_0.00s.jpg"
+    },
+    {
+      "index": 2,
+      "frame": 30,
+      "time": 1.0004692307692309,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_002_1.00s.jpg"
+    },
+    {
+      "index": 3,
+      "frame": 60,
+      "time": 2.0009384615384618,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_003_2.00s.jpg"
+    },
+    {
+      "index": 4,
+      "frame": 96,
+      "time": 3.2015015384615384,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_004_3.20s.jpg"
+    },
+    {
+      "index": 5,
+      "frame": 126,
+      "time": 4.201970769230769,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_005_4.20s.jpg"
+    },
+    {
+      "index": 6,
+      "frame": 156,
+      "time": 5.20244,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_006_5.20s.jpg"
+    },
+    {
+      "index": 7,
+      "frame": 216,
+      "time": 7.2033784615384615,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_007_7.20s.jpg"
+    },
+    {
+      "index": 8,
+      "frame": 276,
+      "time": 9.204316923076924,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_008_9.20s.jpg"
+    },
+    {
+      "index": 9,
+      "frame": 333,
+      "time": 11.105208461538462,
+      "path": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\keyframes\\keyframe_009_11.11s.jpg"
+    }
+  ],
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 60,
+      "start_time": 0.0,
+      "end_time": 2.0009384615384618,
+      "avg_motion": 16.68482259114583,
+      "avg_brightness": 102.4595080295139,
+      "level": "high"
+    },
+    {
+      "start_frame": 60,
+      "end_frame": 72,
+      "start_time": 2.0009384615384618,
+      "end_time": 2.401126153846154,
+      "avg_motion": 47.172770182291664,
+      "avg_brightness": 109.90293619791667,
+      "level": "high"
+    },
+    {
+      "start_frame": 72,
+      "end_frame": 84,
+      "start_time": 2.401126153846154,
+      "end_time": 2.801313846153846,
+      "avg_motion": 62.01546875,
+      "avg_brightness": 91.79730685763889,
+      "level": "high"
+    },
+    {
+      "start_frame": 84,
+      "end_frame": 108,
+      "start_time": 2.801313846153846,
+      "end_time": 3.6016892307692308,
+      "avg_motion": 71.50594075520834,
+      "avg_brightness": 130.37682671440973,
+      "level": "high"
+    },
+    {
+      "start_frame": 108,
+      "end_frame": 120,
+      "start_time": 3.6016892307692308,
+      "end_time": 4.0018769230769236,
+      "avg_motion": 65.72254014756945,
+      "avg_brightness": 133.00732096354167,
+      "level": "high"
+    },
+    {
+      "start_frame": 120,
+      "end_frame": 132,
+      "start_time": 4.0018769230769236,
+      "end_time": 4.4020646153846155,
+      "avg_motion": 61.061725260416665,
+      "avg_brightness": 150.22491644965277,
+      "level": "high"
+    },
+    {
+      "start_frame": 132,
+      "end_frame": 144,
+      "start_time": 4.4020646153846155,
+      "end_time": 4.802252307692308,
+      "avg_motion": 66.92491861979167,
+      "avg_brightness": 146.14388888888888,
+      "level": "high"
+    },
+    {
+      "start_frame": 144,
+      "end_frame": 156,
+      "start_time": 4.802252307692308,
+      "end_time": 5.20244,
+      "avg_motion": 37.50138997395833,
+      "avg_brightness": 142.1487163628472,
+      "level": "high"
+    },
+    {
+      "start_frame": 156,
+      "end_frame": 276,
+      "start_time": 5.20244,
+      "end_time": 9.204316923076924,
+      "avg_motion": 52.52041623263889,
+      "avg_brightness": 148.51184830729167,
+      "level": "high"
+    },
+    {
+      "start_frame": 276,
+      "end_frame": 390,
+      "start_time": 9.204316923076924,
+      "end_time": 13.0061,
+      "avg_motion": 52.01504144965278,
+      "avg_brightness": 147.79170627170137,
+      "level": "high"
+    }
+  ],
+  "transcript": {
+    "language": "zh",
+    "text": "宿舍這是站在編輯的代碼那你們A前點剛才看的是啥呀宿舍外今天陽光特別好",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.32,
+        "text": "宿舍這是站在編輯的代碼"
+      },
+      {
+        "start": 3.04,
+        "end": 5.6000000000000005,
+        "text": "那你們A前點剛才看的是啥呀"
+      },
+      {
+        "start": 5.6000000000000005,
+        "end": 8.36,
+        "text": "宿舍外今天陽光特別好"
+      }
+    ]
+  },
+  "summaries": {
+    "zh": "宿舍這是站在編輯的代碼那你們A前點剛才看的是啥呀宿舍外今天陽光特別好",
+    "en": "This is the code of the station. What did you see in front of the A? Outside the dorm. The sun is very good today."
+  },
+  "translations": {
+    "en": {
+      "transcript": "This is the code of the station. What did you see in front of the A? Outside the dorm. The sun is very good today."
+    }
+  },
+  "artifacts": {
+    "srt": {
+      "zh": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\subtitles\\subtitle_zh.srt",
+      "en": "D:\\rubbish\\video-handle\\output\\20260114_223321\\unified_output\\subtitles\\subtitle_en.srt"
+    }
+  },
+  "notes": {
+    "translation_backend": "whisper_translate_en",
+    "dashscope_key_found": true,
+    "dashscope_enabled": false
+  }
+}

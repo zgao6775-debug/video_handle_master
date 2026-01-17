@@ -1,0 +1,52 @@
+{
+  "input": "d:\\rubbish\\video-handle\\video-Motion-Analysis\\example.mp4",
+  "output": "d:\\rubbish\\video-handle\\video-effects-add\\output_with_effects_v2.mp4",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 13.5,
+      "level": "high",
+      "avg_motion": 13.701851295405984,
+      "avg_brightness": 196.38246238425927,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": -10,
+            "contrast": 0.08,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": 0.98
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 13.5,
+      "end_time": 59.4,
+      "level": "high",
+      "avg_motion": 15.183019653910025,
+      "avg_brightness": 197.91421049403684,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": -10,
+            "contrast": 0.08,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": 0.98
+          }
+        }
+      ]
+    }
+  ]
+}

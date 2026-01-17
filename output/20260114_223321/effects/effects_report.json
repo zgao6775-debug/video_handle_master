@@ -1,0 +1,213 @@
+{
+  "input": "D:/rubbish/video-handle/video/test.mp4",
+  "output": "D:\\rubbish\\video-handle\\output\\20260114_223321\\effects\\output_with_effects.mp4",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0009384615384618,
+      "level": "high",
+      "avg_motion": 17.481770471643518,
+      "avg_brightness": 102.61744683159722,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": 0,
+            "contrast": 0.05,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": 1.06
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 2.0009384615384618,
+      "end_time": 2.501173076923077,
+      "level": "high",
+      "avg_motion": 47.66873697916667,
+      "avg_brightness": 109.90293619791667,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": 0,
+            "contrast": 0.05,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": 1.06
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 2.501173076923077,
+      "end_time": 3.0014076923076924,
+      "level": "high",
+      "avg_motion": 54.876215277777774,
+      "avg_brightness": 102.51941623263889,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": 0,
+            "contrast": 0.05,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": 1.06
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 3.0014076923076924,
+      "end_time": 3.501642307692308,
+      "level": "high",
+      "avg_motion": 61.25619683159722,
+      "avg_brightness": 121.60798936631944,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": 0,
+            "contrast": 0.05,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": 1.06
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 3.501642307692308,
+      "end_time": 4.0018769230769236,
+      "level": "high",
+      "avg_motion": 63.31166232638889,
+      "avg_brightness": 138.2327072482639,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": -5,
+            "contrast": 0.06,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": null
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 4.0018769230769236,
+      "end_time": 4.502111538461539,
+      "level": "high",
+      "avg_motion": 53.85204210069445,
+      "avg_brightness": 150.22491644965277,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": -5,
+            "contrast": 0.06,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": null
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 4.502111538461539,
+      "end_time": 5.002346153846154,
+      "level": "high",
+      "avg_motion": 70.02680772569444,
+      "avg_brightness": 150.66222764756944,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": -5,
+            "contrast": 0.06,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": null
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 5.002346153846154,
+      "end_time": 9.004223076923077,
+      "level": "high",
+      "avg_motion": 51.40859971788194,
+      "avg_brightness": 148.15185696072047,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": -5,
+            "contrast": 0.06,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": null
+          }
+        }
+      ]
+    },
+    {
+      "start_time": 9.004223076923077,
+      "end_time": 13.0061,
+      "level": "high",
+      "avg_motion": 59.95945624457465,
+      "avg_brightness": 147.09917046440972,
+      "effects": [
+        {
+          "effect": "LumContrast",
+          "params": {
+            "lum": -5,
+            "contrast": 0.06,
+            "contrast_threshold": 50
+          }
+        },
+        {
+          "effect": "GammaCorrection",
+          "params": {
+            "gamma": null
+          }
+        }
+      ]
+    }
+  ]
+}

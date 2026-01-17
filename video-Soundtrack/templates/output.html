@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>V2M</title>
+      <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+   </head>
+   <body class="flex flex-col  max-h-screen p-8 mx-16 space-y-8 ">
+      <h1 class="text-4xl font-extrabold text-center">V2M - Auto generate music for your videos!</h1>
+   
+         <p class="text-md italic  leading-relaxed text-gray-900 dark:text-white">When you first upload a
+            short video, a description of your video is generated and then a music prompt suitable for your video is
+            generated. This is used to ultimately produce the final audio. You can change these as you like and regenerate
+            the music to your liking.
+         </p>
+     
+      <div class="flex space-x-8" >
+    
+         <div class="flex w-1/2 flex-col space-y-8">
+            <video id="video" controls autoplay src="{{ url_for('static', filename='combined_video.mp4') }}" ></video>
+            <audio id="audio" controls src="{{ url_for('static', filename='audio.wav') }}"></audio>
+              
+         </div>
+        
+         <div class="w-1/2 flex flex-col space-y-8  ">
+            <div class="space-y-8">
+               <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Video
+               Description</label>
+               <textarea id="description" rows="4"
+                  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Upload a video to see this..."> {{ descriptions }}</textarea>
+               <input type="submit" id="regenerate_prompt" value="Regenerate Prompt"
+                  class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2" />
+            </div>
+            <div>
+               <label for="musicprompt" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">AI Generated Music
+               Prompt</label>
+               <textarea id="musicprompt" rows="4"
+                  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Upload a video to see this..." > {{ music_prompt }} ></textarea>
+            </div>
+
+             <p class="text-sm italic  leading-relaxed text-gray-900 dark:text-white">Music generation generally takes a minute. Please wait before reloading the page.
+         </p>
+           
+            <div class=" max-w-full">
+               
+               <button type="button"
+                  class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" id="clear">Clear</button>
+               <input type="submit" id="regenerate_music" value="Regenerate Music"
+                  class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2" />
+          
+            </div>
+         </div>
+         </form>
+      </div>
+      
+       <footer class="flex p-4 space-x-4  ">
+
+    <a href="https://github.com/sam9111/Video2Music" target="_blank">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github Icon" width="30px" />
+    </a>
+      <a href="https://peerlist.io/samyuktha" target="_blank">
+      <img src="https://peerlist.io/favicon_512.png" alt="Peerlist Icon" width="30px" />
+    </a>
+  
+</footer>
+      <script>
+         window.onload = function(){
+
+                      document.getElementById("clear").addEventListener("click", function(){
+          
+
+             window.location.href = "/";
+
+
+           }
+                                                             )
+           document.querySelector('input[id="regenerate_music"]').addEventListener('click', function(event) {
+           event.preventDefault();
+           let musicPromptElement = document.querySelector('textarea[id="musicprompt"]');
+         
+             let musicPrompt = musicPromptElement.value;
+           
+         
+           let data = {
+             'music_prompt': musicPrompt
+           };
+         
+           fetch('/regenerate/music', {
+             method: 'POST',
+             headers: {
+               'Content-Type': 'application/json',
+             },
+             body: JSON.stringify(data),
+           }).then(response => response.json())
+           .then(data => {
+              let videoElement = document.querySelector('video[id="video"]');
+         let audioElement = document.querySelector('audio[id="audio"]');
+         
+         videoElement.load();
+         audioElement.load();
+           })
+           .catch(error => console.error('There was an error!', error))
+          
+         });
+         
+         
+         document.querySelector('input[id="regenerate_prompt"]').addEventListener('click', function(event) {
+           event.preventDefault();
+              let musicPromptElement = document.querySelector('textarea[id="musicprompt"]');
+           let descriptionElement = document.querySelector('textarea[id="description"]');
+          let description = descriptionElement.value;
+           let data = {
+             'description': description
+           };
+         
+           fetch('/regenerate/prompt', {
+             method: 'POST',
+             headers: {
+               'Content-Type': 'application/json',
+             },
+             body: JSON.stringify(data),
+           }).then(response => response.json())
+           .then(data => {
+             musicPromptElement.value = data.music_prompt;
+           })
+           .catch(error => console.error('There was an error!', error))
+         
+         });
+         
+         
+         }
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+   </body>
+</html>

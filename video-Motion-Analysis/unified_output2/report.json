@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-01-14 12:18:12",
+  "video": {
+    "path": "d:\\rubbish\\video-handle\\video-Motion-Analysis\\example.mp4",
+    "fps": 30.0,
+    "total_frames": 1782,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 59.4
+  },
+  "keyframes": [
+    {
+      "index": 1,
+      "frame": 0,
+      "time": 0.0,
+      "path": "d:\\rubbish\\video-handle\\video-Motion-Analysis\\unified_output2\\keyframes\\keyframe_001_0.00s.jpg"
+    },
+    {
+      "index": 2,
+      "frame": 891,
+      "time": 29.7,
+      "path": "d:\\rubbish\\video-handle\\video-Motion-Analysis\\unified_output2\\keyframes\\keyframe_002_29.70s.jpg"
+    }
+  ],
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 1782,
+      "start_time": 0.0,
+      "end_time": 59.4,
+      "avg_motion": 14.257745724239864,
+      "avg_brightness": 197.66124941741236,
+      "level": "high"
+    }
+  ],
+  "transcript": {
+    "language": "zh",
+    "text": "全民制作人們大家好我是練習時常兩年半的個人練習生蔡徐昆喜歡唱跳rap 籃球 music《Bad Boy》今後的節目中我還準備了很多我自己作詞作曲編舞的原唱作品期待的話請多多為我投票吧",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.24,
+        "text": "全民制作人們大家好"
+      },
+      {
+        "start": 3.24,
+        "end": 6.24,
+        "text": "我是練習時常兩年半的個人練習生蔡徐昆"
+      },
+      {
+        "start": 6.24,
+        "end": 9.44,
+        "text": "喜歡唱跳rap 籃球 music"
+      },
+      {
+        "start": 30.0,
+        "end": 50.0,
+        "text": "《Bad Boy》"
+      },
+      {
+        "start": 50.0,
+        "end": 52.44,
+        "text": "今後的節目中我還準備了很多"
+      },
+      {
+        "start": 52.44,
+        "end": 55.760000000000005,
+        "text": "我自己作詞作曲編舞的原唱作品"
+      },
+      {
+        "start": 55.760000000000005,
+        "end": 57.760000000000005,
+        "text": "期待的話請多多為我投票吧"
+      }
+    ]
+  },
+  "summaries": {
+    "zh": "全民制作人們大家好我是練習時常兩年半的個人練習生蔡徐昆喜歡唱跳rap 籃球 music《Bad Boy》今後的節目中我還準備了很多我自己作詞作曲編舞的原唱作品期待的話請多多為我投票吧",
+    "en": "Hello everyone, I'm the trainee of the trainee group, Cai Xu Kun I like to sing, dance, rap, basketball, and music The trainees are all very good at dancing, and they are very good at dancing They are all very good at dancing, and they are very good at dancing In the future, I have prepared a lot of songs that I can sing and sing If you are looking forward to it, please vote for me"
+  },
+  "translations": {
+    "en": {
+      "transcript": "Hello everyone, I'm the trainee of the trainee group, Cai Xu Kun I like to sing, dance, rap, basketball, and music The trainees are all very good at dancing, and they are very good at dancing They are all very good at dancing, and they are very good at dancing In the future, I have prepared a lot of songs that I can sing and sing If you are looking forward to it, please vote for me"
+    }
+  },
+  "artifacts": {},
+  "notes": {
+    "translation_backend": "dashscope",
+    "dashscope_key_found": true
+  }
+}

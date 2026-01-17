@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>V2M</title>
+      <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+   </head>
+   <body class="flex flex-col p-8 mx-16 space-y-8">
+      <h1 class="text-4xl font-extrabold text-center">V2M - Auto generate music for your videos!</h1>
+
+         <p class="text-md italic  leading-relaxed text-gray-900 dark:text-white">When you first upload a
+            short video, a description of your video is generated and then a music prompt suitable for your video is
+            generated. This is used to ultimately produce the final audio. You can change these as you like and regenerate
+            the music to your liking.
+         </p>
+
+      <form class="flex space-x-8" method="POST" enctype="multipart/form-data" action="/upload" >
+         <div class="flex w-1/2 flex-col space-y-8" id="left">
+            <label 
+               class="flex flex-col items-center justify-center w-full h-96 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+               <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                  <svg class="w-8 h-8 mb-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
+                  </svg>
+                  <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to
+                     upload </span> any short video of max 30s
+                  </p>
+               </div>
+               <input type="file" class="hidden" name="file" required />
+            </label>
+           
+         </div>
+    
+         <div class="w-1/2 flex flex-col space-y-8  ">
+            <div>
+               <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Video
+               Description</label>
+               <textarea id="message" rows="4"
+                  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Upload a video to see this..."></textarea>
+            </div>
+            <div>
+               <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">AI Generated Music
+               Prompt</label>
+               <textarea id="message" rows="4"
+                  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Upload a video to see this..."></textarea>
+            </div>
+              <p class="text-sm italic  leading-relaxed text-gray-900 dark:text-white">Music generation generally takes a minute. Please wait before reloading the page.
+         </p>
+            <div class=" max-w-full">
+               <button type="button"
+                  class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" id="clear">Clear</button>
+ 
+              
+               <input type="submit" value="Generate Music"
+                  class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2" />
+              
+            </div>
+           
+         </div>
+      </form>
+        
+
+   <footer class="flex p-4 space-x-4  ">
+
+    <a href="https://github.com/sam9111/Video2Music" target="_blank">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github Icon" width="30px" />
+    </a>
+      <a href="https://peerlist.io/samyuktha" target="_blank">
+      <img src="https://peerlist.io/favicon_512.png" alt="Peerlist Icon" width="30px" />
+    </a>
+  
+</footer>
+
+      <script>
+         window.onload = function(){
+
+
+           document.getElementById("clear").addEventListener("click", function(){
+           
+
+             window.location.href = "/";
+
+
+           }
+                                                             )
+           
+           
+           
+           const fileInput = document.querySelector('#left input[type="file"]');
+           const label = document.querySelector('#left label');
+           const videoContainer = document.createElement('div');
+           videoContainer.style.display = "none";
+         
+           fileInput.addEventListener('change', function(e) {
+             label.style.display = "none";
+             videoContainer.style.display = "block";
+             
+             const videoElement = document.createElement('video');
+             videoElement.src = URL.createObjectURL(e.target.files[0]);
+             videoElement.controls = true;
+             videoElement.autoplay = true;
+             
+             if (videoContainer.firstChild) {
+               videoContainer.firstChild.remove();
+             }
+             
+             videoContainer.appendChild(videoElement);
+         
+           });
+         
+           document.querySelector('#left').appendChild(videoContainer);
+         }
+         
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+   </body>
+</html>

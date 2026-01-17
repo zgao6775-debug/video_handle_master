@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:06,000
+Hello everyone, I'm a trainee of the group, Cai Xu Kun
+
+2
+00:00:06,000 --> 00:00:10,000
+I like to sing, dance, rap, basketball, and music
+
+3
+00:00:30,000 --> 00:00:40,000
+The last performance of the group is called the dance of the group
+
+4
+00:00:40,000 --> 00:00:50,000
+The last performance of the group is called the dance of the group
+
+5
+00:00:50,000 --> 00:00:56,000
+In the future, I have prepared a lot of songs that I can sing and dance
+
+6
+00:00:56,000 --> 00:00:59,000
+If you are looking forward to it, please vote for me
+
